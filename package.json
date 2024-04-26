@@ -1,0 +1,19 @@
+{
+  "name": "raylib-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start" :"dist/index.js",
+    "dev":"tsc -w & node dist/index.js",
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "raylib": "^0.14.0",
+    "typescript": "^5.4.5"
+  }
+}
